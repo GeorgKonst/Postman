@@ -19,7 +19,7 @@ public class TestApi {
                 .post("/post")
                 // Проверки
                 .then()
-                .statusCode(200);
-                //.body("data", equalTo("Postman"));
+                .statusCode(200)
+                .body("data", equalTo("Fail"));
     }
 }
